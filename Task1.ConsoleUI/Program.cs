@@ -22,7 +22,10 @@ namespace Task1.ConsoleUI
                     Console.WriteLine("You have entered empty string!");
                     continue;
                 }
-                Console.WriteLine(enteredString[0]);
+                if (enteredString != "Exit")
+                {
+                    Console.WriteLine(enteredString[0]);
+                }
             }
         }
     }
